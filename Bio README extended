@@ -1,0 +1,60 @@
+BasicColorCode.py is something I thought of creating on my own, to hopefully beable to learn as I try to create my final view,
+as well as be helpfull, at least in a small way, as of now. 
+
+Currently the app brings up the color picker, and print/returns the color choosen as the output. The color is in a tuple, 
+with 4 values total. 0 is red, 1 is Grenn, 2 is blue for RGB. The last 3rd (or 4th not progmatically) is the HEX value.
+So I am currently trying to figure out how to pass that value to another class or method, or function, somehow to create 
+squares or rectangles of that color. If I could get the colors in a vertical or horizontal column and save them,it would 
+be awesome and a start to my overall view witch has a ton of actual uses, however I do not see myself being able to implement
+half of them for some time, due to my skill level. 
+
+My goal for now is just displaying the colors like a paint swatch, you find at paint stores with the colors. The ability
+to save them, idc what type of file, it would be nice if it wasn't a python file, but to see the squares when opening
+a file with the color number would be awsome. This way people could make color schemes and save them, know what colors
+they like to use for themes in many things, for example IDEs.
+
+As I grow or this does if people find it and want to work on it (i kind of doubt lol) I have many more idea to implement in the 
+GUI.
+Some other things I would like to add after this first hurdle, color format converter, to change colors from their RGB to HEX 
+and the other main types. The next thing would be ability to import an image and use the eyedrop tool to pick colors and save 
+them just as you can with the color picker you can access now, but not save or see.
+
+Also this is a bit of a leap, and maybe better for wxpython, but a mini browser, with search functions on a tab, that searchs 
+images, this would be if you do not have an image of what you want to pick colors from, it would be really just a google image 
+bing or duckduckgo or all search results displayed, then allowing a user to pick colors from that and save to their virtual color
+'swatch'. For example, if you play Xbox you have heard of Halo, I played a lot of Halo in my day, even competed ect. My name on here
+is axtually a reference to a Halo 2 exploit/glitch to double shot (if you played head of a BXR like that but much more advanced)
+Anyway, I really like the colors on one of the maps, Midship. It has purple everywhere, with some steel colors, and some light blue
+teal, cobalt, some pinks, magentas, dark blue and black, ect. I wanted to create a theme in ATOM and PyCharm named Midship and
+with the colors from the map as I love the way they look, don't plan on using the main purple that's everywhere as the backround
+but maybe as the main font color. So this is an example of where the image color selection could come in handy. Also a quick
+built in search tab would be nice so pointless images arn't saved by the user. I had this idea after reading WX documents
+and saw all their toolsets and realized this is very possible with wx python, sure it is with tkinter, just maybe need to learn
+more. Also I am down to use wx python, I may even create a version with that, and just work on them almost side by side until the
+one that seems to have better tools sets, and I learn and can utilize better, I may switch to. As of now I obly have used Tkinter
+I have created to most basic of apps with wx and will post that, or maybe once it has a color chooser.
+
+Ok so, those are some of the thing I have thought of a GUI being capable of. Also generate themes in CSS or LESS shouldn't be that
+hard in theory. I cannot do it off the top of my head, but I know it can be done. Using just a template and inputing their colors
+even if there isn't very much functionality in customizing what colors do what, or any, that fine as it can always grow. Again, I hope
+this is something to be worked on for a long time and always improving, even if it gets everything done quickly, I would be happy because
+I will have learned a lot. I plan to hopefully work on this for years in my laerning, and hopefully it serves as a good tool
+one day to others, and in the process I learn as much as possible, there is no end to knowledge in programming, and I am far behind
+as I never tried to write anycode, I had a false impression, and thought there was much more math, and it was all math, I don't
+enjoy math very much, I do not dislike it, I just don't perform well in standardized tests when it comes to the math part, usually
+lack od studying honnestly. That is the purpose I waited until I was 27 or 28 to become actually truly interested and started 
+putting effort into the subject and don't plan to stop. I just wish I had went to school for CS or evn IT instead of Psychology,
+I love the subject, but I have always loved CS and IT and even Graphic design, and anything with technology down to hardware,
+(psychology is really almost exact oppsite) I love the study of behavior and it is very interesting, however the job market in
+anything remotley related to CS, IT, litterally is crazy. Anything that slightly focus' on softwar, hardware or networking,
+is booming and will be for my entire life. I advocate CS ad IT in all schools, starting in 1st grade a little intoduction even,
+should be studied just as History, as it is just as important, as is math, science (argubly more as it has so many subjects).
+
+The whole thing is pretty much a tool for creating and saving custom color pallettes.
+
+This will probably serve to store some files, code ect. Perhaps I will upload my code for the Python for Everyone (PY4E) Coursea 
+class I recently finished. Also maybe a project I have in the works once it gets more complex or just if I feel the need to upload
+it or anything else. I will try to put together material to help (hopefully not cheat) anyone thinking about Charels Severence's 
+class (the python course sponsored by U of M. Only a few exist may test the IBM one out before continuing with more of these
+courses. It was very helpful as being self taught and a begginer for almost a year. Don't bother with anything unless I edit this
+it will be waste your time, trust me. 
