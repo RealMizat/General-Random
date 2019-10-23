@@ -35,3 +35,5 @@ I know the root=Tk() should be lower in the script, I just moved it temperarily,
 #Grid is probbaly going to be used, at least with my logic it should work, however I am probably wrong
 #or the backround of individual frames. I do not believe it is possible to fill squares that are part of 
 #the Grid function, because it changes square sizes based on widgets ect.
+
+As of now obviously anyone can copy that code and use it, no license except me saying take it.
