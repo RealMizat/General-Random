@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+
+color=$(zenity --width=150 --entry --title="Swatch maker" --text="Enter the hex code:")
+
+if [[ $? == 1 ]]
+
+then 
+
+exit
+
+else [[ $? == 0 ]]
+
+convert -size 400x400 xc:#$color /tmp/swatch.png ; display -size 400x400 /tmp/swatch.png ; rm /tmp/swatch.png
+
+fi
