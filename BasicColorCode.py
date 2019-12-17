@@ -8,29 +8,26 @@ def call_me():
     clr = colorchooser.askcolor(title="select color")
     return(clr)
 
-#need class for windows or frames that will take that color (sub-class)
-#anyone whom comes across this feel free to help I'm new trying to create 
-#Either frames or Canvas' that fill to the colors choosen and ability to save 
-#Those colors or an image with color numbers, so I need to pass the RGB values from the output 
-#witch is a tuple, or the last value 4rd value in HEX to create the color
-#The easiest way I think would be to draw a very thick line so it's a square or close to it
-#Grid is probbaly going to be used, at least with my logic it should work, however I am probably wrong
-
-#Please help if you come across this, still trying to graspe class' and methods and all the different types, syntax and rules
-#There is so much to them, and never have created my own yet, like i'm attempting here.
 
 root = Tk()
 
 
-I found another version with the __name__ = __main__ or a couple
-#how ever I do not fully understand that, even though I have read up on it quit a bit
-#I would not be able to put it into anything I come up with 100% on my own
-#   So for now would like to leave it out.
+#I found another version with  __name__ = __main__ 
+#how ever I do not fully understand understand how that works, I get what it does, just not why, so Istay away from it for now.
+
 
 button = Button(root, text="change color", command=call_me)
 button.pack()
 root.geometry("400x400")
 root.mainloop()
 
-#if anyone comes across this and don't feel like helping, however know a guide or tutorial that will help
-#maybe a similar tk or even wx code, either with a guide or tutorial or not please let me know
+#I would be very interested in other scripts that use this dialog, or even better, create their own color picker
+#so if you know of any open source code, or even code that is avaible to view that either uses the color chooser 
+#dialog, or that uses their own color chooser (created from scratch or even another module) I would love to look at it
+#as far as I can tell there is not much code at all avaible using the color chooser dilog, and even less python created
+#color choosers. This is something I am looking to intergrate into a GUI, and it is a main function, however myself cannot
+#find the material.
+
+#As for the code above, the color or clr returns a tuple, so that tuple would need to be changed to a list, because the 
+#fotmat the tuple returns the color in is RBG and hex, hex would need to be takenout, or vice versa, depending on how you
+#want to format color numbers ect. I would use list(clr) to simply turn it into a list and then go from there.
